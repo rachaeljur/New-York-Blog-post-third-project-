@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- Shows latest HTMl document type-->
+<html>
+  <!-- Standard HTML opening tag-->
+  <head>
+    <!--main head tag- contains metadata and title - not visible to user but,seen in window tab-->
+    <link rel="stylesheet" href="style.css">
+    <!--The <link> tag is most often used to link to external style sheets:an empty tag only contains Attributes-->
+    <!-- Link tag -Uses the <link rel="stylesheet" href="style.css"> tag inside the <head> of your HTML document to connect external CSS-->
+  </head>
+  <!-- Closing head tag-->
+  <body>
+    <!--- Opening Body tag- is visible to user-->
+    <nav>  
+      <!-- Opening Nav bar for quick access to different sections-->
+      <ul>
+        <!-- Unordered list in bulleted form-->
+        <li>
+          <!-- List Item bullet point-->
+          <!-- Anchor tag contains the attribute- Href (Hypertext Reference) which,creates a link to another url.-->
+          <!-- # symbol means a Link to an element with a specified id within the page e.g top of the page(nav bar)-->
+          <a href="#Blog">Blog</a> 
+          <!-- Closing a anchor tag-->
+          </li>
+          <!-- Closing list item tag-->
+ .        <!-- Opening list item tag-->
+          <li> 
+          <a href="#Media">Media</a>
+          </li> <!--closing list item tag-->
+          <li> <!-- Opening list item tag-->
+          <a href="#About">About</a>
+            </li> <!-- Closing List Item tag-->
+            <!-- Closing Unordered List tag--> 
+            </ul>
+            <!-- Anchor tag contains the attribute- Href (Hypertext Reference) which,creates a link to another url.-->
+            <!-- # symbol means a Link to an element with a specified id within the page e.g top of the page(nav bar)-->
+      </nav> <!-- Closing Nav bar tab-->
+      <header> 
+        <h1> New York City
+          </h1> 
+          </header> 
+          <!-- Opening and closing Header tags and Opening and closing Heading 1 (H1) style tags-->
+          <main> <!-- Opening main tag-->
+            <!-- section opening tag is a semantic tag that defines content sections-->
+            <section 
+              id="blog">
+              <!-- Opening section tag-->
+              <!-- id refers to an attribute that assigns a unique identifier to an HTML element. When blog in nav is clicked the browser navigates to this Blog section. Ahref linked in line 22-->
+              <article> 
+                <p> New York City is made up of five boroughs which include Queens, Manhattan, Brooklyn, the Bronx, and Staten Island. The city is the home of approximately 8 million people. In 1876, France gifted the City of New York what is known as the Statue of Liberty, which is currently located on Liberty Island and commonly visited by tourists. However, it took 10 years to assemble and therefore wasn’t unveiled until 1886. Another tourist destination is Times Square. Times Square is commonly known for the big buildings, Broadway shows, and bright neon signs. This famous location was named after The New York Times after the Times moved to that location. Prior to that, it was named Longacre Square. New York City is also known for its bridges that connect the boroughs and allow ease of transportation.
+                  </p> 
+                  </article>
+                  <!-- Opening and closing article tag which, should make sense on its own and be reusable or distributable independently. Article - semantic element-->
+                  <!-- Opening and closing paragraph (p) tags:paragraph of text, typically displayed as a block of text separated from other paragraphs by blank lines or indentation-->
+            </section>
+            <!--closing section tag-->
+            <figure>
+             <img src ="https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg"alt="statue of Liberty">
+            <!--Image tag self closing empty tag- closed by /> src  (source)= url in double quotes-->
+              <figcaption> This is the Statue of Liberty, a popular tourist attraction located on Liberty Island.</figcaption> 
+            </figure>
+            <!-- Opening and closing figure caption- this will move with the image. 
+            Closing figure tag-->
+            <aside>
+              <p>New York City is very popular for the variety of great food it has. Some of the top food items in NYC include:
+              </p> 
+              <!-- Opening and closing paragragh tag nested within an aside tag. Aside - element provides a way to designate content that is considered complementary to the main content of the page: sidebars,ads,related links-->
+              <ol>
+                <li>Pizza
+                </li>
+                <li>
+                  Bagels </li>
+                <li>
+                  Burgers and Sandwiches </li>
+                  <li>
+                    Ramen
+                    </li>
+                    <li>
+                      Taco
+                      </li>
+                      <li>
+                        Pasta</li>
+                        <li>Desserts
+                        </li>
+            <!-- Opening and closing ol Ordered list with list items tags. Ol is a numbered list-->
+           </aside>
+           <!-- closing aside tag-->
+           <!-- Opening section tag-->
+           <!--id refers to an attribute that assigns a unique identifier to an HTML element. When blog in nav is clicked the browser navigates to this Media section. Ahref linked in line 28-->
+          <article> <!-- Opening and Closing article tag--> 
+          <section id = "Media"> 
+            <article> 
+            <h2> <!-- h2 Heading 2 style opening and closing tags-->
+              The Scenery in NYC
+            </h2>
+            <p> 
+              While the view in the city is beautiful, the sounds are not as lovely. Below you'll see an example of the view and the sounds you'll deal with in NYC on a daily basis.
+              </p> <!-- Opening and closing paragraph-->
+          </article> 
+          <video controls src ="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline-timelapse.mp4"
+          type="mp4">
+          </video> 
+          <!-- Opening article tag,opening videontag with controls such as play/pause visible. Source (src) external url http. Type of vidoe media is specified-->
+          <embed src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline.jpeg"
+          type="jpeg">
+          <!-- embed tag a self closing -empty tag -adds all media types- src is source, url is http and type of media is specified as jpeg-->
+          <audio controls src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov"
+          type="mov">
+          </audio>
+          <!-- Opening and Closing audio tags with source (src) is http url. Controls - ability to play/pause and type mov.4 is specified-->
+          </section> <!-- Closing section tag-->
+          </main> 
+          <!-- Closing main tag-->
+          <footer id = "About">
+            <p> 
+              Posted by Rachael Jurawan 
+              </p>
+              <p>
+                Contact information: Blogger@NYC.com
+                </p>
+            </footer>
+            <!-- Opening and Closing Footer information - copyrights& author information.-->
+            <!-- id refers to an attribute that assigns a unique identifier to an HTML element. When blog in nav is clicked the browser navigates to this About section. Ahref linked in line 31-->
+            <!-- Closing Body and HTML tags-->
+  </body>
+</html> 
